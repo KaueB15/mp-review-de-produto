@@ -4,3 +4,35 @@
   text-decoration: underline;
   text-decoration-color: #6aea4acc;
 }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review .rating {
+  display: flex;
+  gap: 5px;
+}
+
+.review .rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.review p {
+  margin-bottom: 46px;
+}
+
+.review #line {
+  width: 540px;
+  background-color: #525252;
+  height: 2px;
+}
